@@ -1,0 +1,139 @@
+/* BACKGROUND */
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+  background: linear-gradient(to bottom, #2e4d3a, #1b2f23);
+  color: #f5f5dc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* FORM CONTAINER (LOGIN + SIGNUP) */
+.form-box {
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(210, 180, 140, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+/* HEADINGS */
+h2 {
+  color: #d2b48c;
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+/* BUTTONS */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #8b5a2b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #a47148;
+  transform: scale(1.05);
+}
+
+/* GAME BOX */
+.game-box {
+  max-width: 500px;
+  width: 90%;
+  background: #3e5c46;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+  text-align: center;
+}
+
+/* QUESTION */
+.question-box {
+  background: #f5f5dc;
+  color: #2e4d3a;
+  padding: 15px;
+  margin: 20px 0;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+/* OPTIONS */
+.options button {
+  margin: 5px 0;
+  background: #6b8e23;
+}
+
+.options button:hover {
+  background: #7ca33a;
+}
+
+/* LEVEL BUTTONS */
+.levels button {
+  margin: 5px;
+  background: #8b5a2b;
+}
+
+.levels button:disabled {
+  background: gray;
+}
+
+/* MESSAGE */
+.message {
+  font-weight: bold;
+  margin-top: 10px;
+}
+/* DASHBOARD */
+.dashboard {
+  text-align: center;
+  padding: 20px;
+  animation: fadeIn 0.6s ease-in;
+}
+
+/* AVATAR */
+.avatar-box {
+  background: rgba(255,255,255,0.1);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 250px;
+  backdrop-filter: blur(10px);
+}
+
+.avatar-box img {
+  width: 80px;
+}
+
+/* BADGES */
+.badges {
+  margin: 20px;
+}
+
+/* GAME BUTTONS */
+.games button {
+  margin: 10px 0;
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
